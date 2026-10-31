@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111319">
+<meta name="description" content="A long Halloween letter for Sofia, written with love, tenderness, honesty, and respect for her freedom.">
+<title>For My Lady, Sofia — A Letter Beneath the October Moon</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+  :root {
+    --night:#111319; --night-soft:#1b1d25; --ink:#28262a; --muted:#6f6870;
+    --paper:#fffdf9; --paper-2:#f8f4ef; --line:#e7ddd4; --ember:#cf8755;
+    --ember-dark:#9b5f38; --rose:#b9828c; --lily:#fffdf8; --sage:#a8b0a2;
+    --serif:'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+    --sans:'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  * { box-sizing:border-box; }
+  html { scroll-behavior:smooth; scroll-padding-top:1.4rem; }
+  body { margin:0; background:var(--night); color:#f9f5f0; font-family:var(--sans); line-height:1.7; overflow-x:hidden; }
+  a { color:inherit; }
+  button { font:inherit; }
+  .skip-link { position:absolute; left:-999px; top:1rem; z-index:1000; background:#fff; color:#111; padding:.7rem 1rem; }
+  .skip-link:focus { left:1rem; }
+  .site-topline { display:flex; justify-content:space-between; gap:1rem; align-items:center; padding:.8rem clamp(1rem,5vw,4.5rem); color:#d9d1cd; font-size:.7rem; text-transform:uppercase; letter-spacing:.19em; border-bottom:1px solid #ffffff18; }
+  .topline-mark { color:#e2b08a; }
+  .hero { position:relative; isolation:isolate; min-height:76vh; padding:5.2rem 1.25rem 5.7rem; display:flex; align-items:center; justify-content:center; text-align:center; overflow:hidden; background:radial-gradient(ellipse at 50% 17%, #34313a 0%, #191a22 43%, #111319 76%); }
+  .hero:before,.hero:after { content:""; position:absolute; pointer-events:none; border-radius:50%; z-index:-1; }
+  .hero:before { width:min(75vw,650px); aspect-ratio:1; border:1px solid #ffffff11; top:-31%; left:-18%; box-shadow:0 0 0 55px #ffffff06,0 0 0 110px #ffffff03; }
+  .hero:after { width:min(58vw,510px); aspect-ratio:1; border:1px solid #d8ad8a20; right:-18%; bottom:-42%; box-shadow:0 0 0 42px #d8ad8a0a,0 0 0 84px #d8ad8a06; }
+  .moon { position:absolute; top:11%; right:clamp(2rem,12vw,10rem); width:76px; height:76px; border-radius:50%; background:linear-gradient(135deg,#fffef6,#e6ded4); box-shadow:0 0 50px #fff8dc20,0 0 110px #e9d2c31b; opacity:.88; }
+  .moon:after { content:""; position:absolute; inset:-12px; border:1px solid #fff8e52c; border-radius:50%; }
+  .hero-inner { max-width:900px; position:relative; z-index:2; }
+  .eyebrow { color:#e8bd9e; font-size:.73rem; text-transform:uppercase; letter-spacing:.28em; margin:0 0 1.2rem; }
+  h1,h2,h3,.signature,.script-line { font-family:var(--serif); font-weight:500; }
+  h1 { font-size:clamp(3.2rem,8.5vw,7.4rem); line-height:.89; letter-spacing:-.045em; margin:0 auto 1.5rem; max-width:850px; text-wrap:balance; }
+  h1 em { font-weight:400; color:#e9d4c4; }
+  .hero-subtitle { max-width:590px; margin:0 auto; color:#d5ced0; font-family:var(--serif); font-size:clamp(1.2rem,2.4vw,1.7rem); line-height:1.45; }
+  .hero-stamp { margin:2rem auto 0; display:flex; justify-content:center; align-items:center; gap:.8rem; color:#d0b7a8; font-size:.72rem; letter-spacing:.16em; text-transform:uppercase; }
+  .hero-stamp span { display:block; width:36px; height:1px; background:#d0b7a855; }
+  .hero-actions { margin-top:2.15rem; display:flex; justify-content:center; gap:.8rem; flex-wrap:wrap; }
+  .button { display:inline-flex; align-items:center; justify-content:center; text-decoration:none; cursor:pointer; border:1px solid #eee2d7; border-radius:999px; padding:.85rem 1.3rem; font-size:.82rem; font-weight:600; transition:transform .2s ease, background .2s ease; }
+  .button:hover { transform:translateY(-2px); }
+  .button-primary { background:#f7efe7; color:#252027; }
+  .button-ghost { color:#f7efe7; border-color:#ffffff45; background:#ffffff07; }
+  .hero-decoration { position:absolute; font-size:clamp(1.3rem,3vw,2rem); filter:grayscale(1); opacity:.4; pointer-events:none; }
+  .ghost-left { left:9%; bottom:17%; transform:rotate(-12deg); }
+  .pumpkin-right { right:10%; bottom:15%; opacity:.52; filter:grayscale(.6); }
+  .tiny-stars { position:absolute; inset:0; pointer-events:none; opacity:.5; background-image:radial-gradient(#fff 1px,transparent 1.5px),radial-gradient(#e1b99a 1px,transparent 1.5px); background-size:83px 83px,127px 127px; background-position:14px 22px,40px 62px; mask-image:linear-gradient(to bottom,#000,transparent 82%); }
+  .intro-note { max-width:850px; margin:-1px auto 3.5rem; padding:2.2rem clamp(1.25rem,5vw,3.4rem); text-align:center; background:#1a1b23; border:1px solid #ffffff12; border-radius:0 0 1.2rem 1.2rem; color:#d9d1d0; }
+  .intro-note .small-cap { color:#e5b994; letter-spacing:.2em; text-transform:uppercase; font-size:.68rem; }
+  .intro-note p { font-family:var(--serif); font-size:1.3rem; line-height:1.5; margin:.7rem auto 0; max-width:680px; }
+  .page-grid { width:min(1120px,calc(100% - 2rem)); margin:0 auto 5rem; display:grid; grid-template-columns:230px minmax(0,1fr); gap:1.5rem; align-items:start; }
+  .contents { position:sticky; top:1rem; background:#1b1c24; border:1px solid #ffffff16; padding:1.25rem; border-radius:1rem; }
+  .contents-title { font-size:.68rem; letter-spacing:.2em; text-transform:uppercase; color:#d7a880; margin:0 0 .7rem; }
+  .contents a { display:block; text-decoration:none; color:#d8d1d2; font-size:.82rem; padding:.5rem .6rem; border-radius:.45rem; line-height:1.35; }
+  .contents a:hover,.contents a:focus-visible { background:#ffffff0d; color:#fff; outline:none; }
+  .contents-note { border-top:1px solid #ffffff18; color:#a9a1a4; margin:1rem 0 0; padding-top:1rem; font-family:var(--serif); font-style:italic; font-size:1.05rem; line-height:1.35; }
+  .letter { background:var(--paper); color:var(--ink); border-radius:1.2rem; overflow:hidden; box-shadow:0 24px 80px #00000035; }
+  .letter-head { padding:clamp(1.6rem,5vw,3.6rem) clamp(1.4rem,6vw,4.2rem) 2rem; background:linear-gradient(180deg,#fffdf9,#faf6f1); border-bottom:1px solid var(--line); position:relative; }
+  .letter-kicker { color:var(--ember-dark); text-transform:uppercase; font-size:.68rem; letter-spacing:.22em; margin:0 0 .8rem; }
+  .letter-title { color:#26242a; font-size:clamp(2.5rem,5.3vw,4.5rem); line-height:.98; margin:0; letter-spacing:-.025em; }
+  .letter-title em { color:#9a6c6f; }
+  .letter-date { color:#867a79; font-size:.74rem; letter-spacing:.12em; text-transform:uppercase; margin:1.2rem 0 0; }
+  .ornament { display:flex; align-items:center; justify-content:center; gap:1rem; color:#bd8a77; margin:1.5rem 0 .2rem; }
+  .ornament:before,.ornament:after { content:""; height:1px; flex:1; max-width:90px; background:#d9bfb1; }
+  .lily { width:34px; height:34px; color:#c8a79d; display:inline-block; flex:0 0 auto; }
+  .letter-body { padding:clamp(1.4rem,6vw,4.2rem); }
+  .salutation { font-family:var(--serif); font-size:clamp(1.7rem,3vw,2.4rem); line-height:1.2; margin:0 0 1.5rem; color:#28242a; }
+  .letter-body p { font-size:clamp(.96rem,1.25vw,1.04rem); line-height:1.91; margin:0 0 1.2rem; color:#39343a; }
+  .letter-body p strong { color:#28242a; font-weight:700; }
+  .letter-body em { color:#8c5e65; }
+  .section { padding:1.8rem 0 1.1rem; border-top:1px solid #e8ddd5; scroll-margin-top:1rem; }
+  .section:first-of-type { border-top:0; }
+  .section-number { display:block; color:#b77752; font-size:.66rem; letter-spacing:.22em; text-transform:uppercase; margin-bottom:.35rem; }
+  h2 { font-size:clamp(1.9rem,3.5vw,2.8rem); line-height:1.05; color:#29252b; margin:0 0 1.1rem; letter-spacing:-.018em; }
+  .pullquote { margin:1.7rem 0; padding:1rem 1.3rem; border-left:2px solid #d29776; background:#fbf3ec; color:#674f50; font-family:var(--serif); font-size:clamp(1.25rem,2.6vw,1.7rem); line-height:1.42; }
+  .soft-break { display:flex; justify-content:center; align-items:center; gap:.7rem; color:#c2a39a; padding:1.7rem 0; }
+  .soft-break span { font-size:.95rem; letter-spacing:.3em; }
+  .soft-break .lily { width:27px; height:27px; }
+  .promise-list { list-style:none; margin:1.1rem 0 1.4rem; padding:0; }
+  .promise-list li { position:relative; padding:.5rem 0 .5rem 1.5rem; color:#39343a; line-height:1.75; }
+  .promise-list li:before { content:"✧"; position:absolute; left:0; color:#b77752; }
+  .gentle-note { padding:1rem 1.1rem; border:1px solid #eadbd1; background:#fffaf4; border-radius:.7rem; margin:1.5rem 0; color:#6a5654; font-family:var(--serif); font-size:1.2rem; line-height:1.48; }
+  .signoff { margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid #e8ddd5; }
+  .signature { font-size:clamp(2rem,4vw,3rem); color:#845d62; line-height:1.08; margin:.3rem 0 .7rem; }
+  .signoff small { color:#817675; font-size:.78rem; }
+  .closing-card { background:linear-gradient(145deg,#f7eee7,#fffdf9 55%,#f4e9e0); padding:clamp(1.5rem,5vw,3rem); text-align:center; border-top:1px solid #e5d8d0; }
+  .closing-card h2 { font-size:clamp(2rem,4vw,3.3rem); }
+  .closing-card p { max-width:620px; margin:.7rem auto; font-family:var(--serif); font-size:1.26rem; line-height:1.55; color:#675558; }
+  .closing-flourish { font-size:1.6rem; color:#ad7c77; letter-spacing:.35em; margin:1rem 0; }
+  .footer { color:#aca3a4; text-align:center; padding:2rem 1rem 3rem; font-size:.75rem; letter-spacing:.06em; }
+  .footer strong { color:#e0c1ab; font-weight:500; }
+  .back-top { display:inline-block; margin-top:1rem; text-decoration:none; border-bottom:1px solid #e7b99488; padding-bottom:.15rem; color:#e7c0a4; }
+  .petal-layer { position:fixed; inset:0; overflow:hidden; pointer-events:none; z-index:20; aria-hidden:true; }
+  .falling-petal { position:absolute; top:-12vh; color:var(--lily); font-size:var(--size,18px); text-shadow:0 0 9px #fff6; opacity:var(--opacity,.7); animation:fall var(--duration,17s) linear var(--delay,0s) infinite; transform:translate3d(0,0,0) rotate(0deg); }
+  @keyframes fall { 0% { transform:translate3d(0,-5vh,0) rotate(0deg); } 50% { transform:translate3d(var(--drift,40px),52vh,0) rotate(190deg); } 100% { transform:translate3d(calc(var(--drift,40px) * -0.45),112vh,0) rotate(370deg); } }
+  .reduce-motion { position:fixed; right:1rem; bottom:1rem; z-index:30; border:1px solid #ffffff30; background:#1a1b22eF; color:#f7eee7; border-radius:999px; padding:.65rem .9rem; font-size:.72rem; cursor:pointer; backdrop-filter:blur(10px); }
+  .reduce-motion:hover { background:#30303a; }
+  .end-mark { display:inline-block; width:7px; height:7px; border-radius:50%; background:#cc8a5a; margin-right:.55rem; vertical-align:middle; }
+  @media (max-width:850px) { .page-grid { grid-template-columns:1fr; width:min(760px,calc(100% - 1.1rem)); } .contents { position:relative; top:auto; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.1rem .4rem; } .contents-title { grid-column:1/-1; } .contents-note { grid-column:1/-1; } }
+  @media (max-width:520px) { .site-topline { font-size:.58rem; letter-spacing:.12em; } .hero { min-height:72vh; padding-top:5rem; } .moon { width:50px; height:50px; top:7%; right:10%; } .ghost-left { left:4%; bottom:10%; } .pumpkin-right { right:4%; bottom:8%; } .intro-note { margin-bottom:2rem; } .contents { grid-template-columns:1fr 1fr; padding:.8rem; } .contents a { font-size:.76rem; } .letter-body p { line-height:1.82; } .reduce-motion { right:.6rem; bottom:.6rem; } }
+  @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; } .petal-layer { display:none; } }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#letter">Skip to the letter</a>
+<div class="petal-layer" id="petalLayer" aria-hidden="true"></div>
+<div class="site-topline"><span><span class="end-mark"></span>October letter · 2026</span><span class="topline-mark">A little moonlight, a little magic</span></div>
+<header class="hero" id="top">
+  <div class="tiny-stars" aria-hidden="true"></div><div class="moon" aria-hidden="true"></div>
+  <span class="hero-decoration ghost-left" aria-hidden="true">👻</span><span class="hero-decoration pumpkin-right" aria-hidden="true">🎃</span>
+  <div class="hero-inner">
+    <p class="eyebrow">A Halloween letter, written with an open heart</p>
+    <h1>For my Lady,<br><em>Sofia.</em></h1>
+    <p class="hero-subtitle">A little October magic, a lot of truth, and all the gentleness I mean.</p>
+    <div class="hero-stamp"><span></span>For your heart, at your own pace<span></span></div>
+    <div class="hero-actions"><a class="button button-primary" href="#letter">Open my letter&nbsp; ✧</a><a class="button button-ghost" href="#a-gentle-promise">Go to the gentlest part</a></div>
+  </div>
+</header>
+<section class="intro-note" aria-label="A note before reading">
+  <div class="small-cap">Before you read, my love</div>
+  <p>You do not owe this page a reply, a reaction, or even your full attention tonight. Read a little, leave it, come back, or close it altogether. This is an offering of love—not an assignment for your heart.</p>
+</section>
+<main class="page-grid">
+  <nav class="contents" aria-label="Letter contents">
+    <p class="contents-title">A path through the letter</p>
+    <a href="#first-things">01 · Before anything else</a>
+    <a href="#today">02 · About today</a>
+    <a href="#noise">03 · The noise around us</a>
+    <a href="#why-you">04 · Why you, Sofia</a>
+    <a href="#loyalty">05 · Loyalty in action</a>
+    <a href="#truth">06 · Honesty and growth</a>
+    <a href="#desire">07 · Beauty and respect</a>
+    <a href="#future">08 · The future I imagine</a>
+    <a href="#hard-days">09 · On your hard days</a>
+    <a href="#a-gentle-promise">10 · A gentle promise</a>
+    <p class="contents-note">“You can be completely yourself here. You never have to perform being okay.”</p>
+  </nav>
+  <article class="letter" id="letter">
+    <div class="letter-head">
+      <p class="letter-kicker">A letter beneath the October moon</p>
+      <h2 class="letter-title">To my <em>My Lady.</em><br>To Sofia, as she is.</h2>
+      <p class="letter-date">October 2026 · Written with care, meant to be read freely</p>
+      <div class="ornament" aria-hidden="true">
+        <svg class="lily" viewBox="0 0 100 100" fill="none"><path d="M50 51C26 43 18 23 31 14C46 18 51 35 50 51Z" fill="#fffdf8" stroke="#c8a79d" stroke-width="2"/><path d="M50 51C37 29 42 10 58 8C69 20 63 39 50 51Z" fill="#fffdf8" stroke="#c8a79d" stroke-width="2"/><path d="M50 51C59 27 78 22 87 35C82 50 64 57 50 51Z" fill="#fffdf8" stroke="#c8a79d" stroke-width="2"/><path d="M50 51C73 49 86 63 78 77C62 80 50 65 50 51Z" fill="#fffdf8" stroke="#c8a79d" stroke-width="2"/><path d="M50 51C63 69 56 88 41 91C29 79 37 61 50 51Z" fill="#fffdf8" stroke="#c8a79d" stroke-width="2"/><path d="M50 51C32 68 14 61 12 46C24 34 42 42 50 51Z" fill="#fffdf8" stroke="#c8a79d" stroke-width="2"/><circle cx="50" cy="51" r="5" fill="#d4a36d"/></svg>
+      </div>
+    </div>
+    <div class="letter-body">
+      <p class="salutation">My Lady, my Sofia,</p>
+      <p>I wanted this final long letter of the year to feel a little like Halloween after the world has quietened down: the last orange light in a pumpkin, a pale moon above the rooftops, the softness of white lilies against the dark, and a small safe place where you can set down whatever you have been carrying—even if you do not have words for it yet.</p>
+      <p>I know a website cannot prove a promise. Pretty words cannot do the work of patience, honesty, or changed behaviour. So I do not want this to be a grand speech you have to believe simply because I wrote it beautifully. I want it to tell you what I am trying to build, and then leave me responsible for showing you through my actions.</p>
+      <p>This letter is long because there are things I want to say carefully. But you do not have to read it all at once. Nothing here asks you to make a decision tonight, comfort me, or respond in a particular way. I am giving it to you because I love you—not because I need anything back from you in exchange.</p>
+      <div class="soft-break" aria-hidden="true"><svg class="lily" viewBox="0 0 100 100" fill="none"><path d="M50 51C26 43 18 23 31 14C46 18 51 35 50 51Z" fill="#fff" stroke="currentColor" stroke-width="3"/><path d="M50 51C37 29 42 10 58 8C69 20 63 39 50 51Z" fill="#fff" stroke="currentColor" stroke-width="3"/><path d="M50 51C59 27 78 22 87 35C82 50 64 57 50 51Z" fill="#fff" stroke="currentColor" stroke-width="3"/><path d="M50 51C73 49 86 63 78 77C62 80 50 65 50 51Z" fill="#fff" stroke="currentColor" stroke-width="3"/><path d="M50 51C63 69 56 88 41 91C29 79 37 61 50 51Z" fill="#fff" stroke="currentColor" stroke-width="3"/><path d="M50 51C32 68 14 61 12 46C24 34 42 42 50 51Z" fill="#fff" stroke="currentColor" stroke-width="3"/><circle cx="50" cy="51" r="5" fill="#d4a36d"/></svg><span>✧ ✦ ✧</span></div>
+
+      <section class="section" id="first-things">
+        <span class="section-number">01 · Before anything else</span>
+        <h2>You are allowed to be exactly where you are.</h2>
+        <p>My love, you do not have to be cheerful just because someone loves you. You do not have to turn a difficult day into a lesson, find the perfect words for a complicated feeling, or convince everyone that you are fine. Some things take time to settle inside us. Sometimes we know what we feel; sometimes we do not. Sometimes we want to speak; sometimes we want an ordinary conversation about something completely unrelated. All of those responses are allowed.</p>
+        <p>I never want my affection to become another voice asking you to explain yourself. You can tell me as much or as little as you feel comfortable telling me. You can ask for reassurance, ask for space, change your mind, or say, “Not today, my love.” I will not treat that as a rejection of me. Your boundaries are not an insult to our relationship; they are part of what allows it to be honest and safe.</p>
+        <p>And please remember this: <strong>you do not have to earn gentleness by handling everything perfectly.</strong> You deserve respect when you are confident, when you are uncertain, when you are laughing, when you are quiet, and when you simply have no energy left for the day.</p>
+      </section>
+
+      <section class="section" id="today">
+        <span class="section-number">02 · About today</span>
+        <h2>What happened does not get to define you.</h2>
+        <p>Sweetheart, I am sorry that today brought something so upsetting into your life. From what I have been told, Ruben followed you into the girls’ bathroom, crossed a physical and sexual boundary, and touched you when that was not wanted. You told him to stop and made your boundary clear.</p>
+        <p>I want to say this carefully: <strong>your no matters the first time.</strong> You should never have to make it louder, explain it more convincingly, mention a boyfriend, threaten to expose past behaviour, or find the exact words that will finally make someone listen. Being friends with someone, having a history with them, or having once loved them does not give them a right to your body or your private space. Your relationship status does not decide whether you are entitled to say no. You are entitled to say no because you are you.</p>
+        <p>You did not cause another person's decision to cross a boundary. You are not responsible for making that decision seem harmless, keeping everyone comfortable about it, or making sure nobody gets upset when the truth is addressed. And you do not need to prove to me how you feel about it. I will not tell you that you must be devastated, brave, angry, frightened, or anything else. I respect whatever your own feelings are, including feelings you may not have found yet.</p>
+        <div class="pullquote">“You do not have to prove that a boundary mattered. It mattered because it was yours.”</div>
+        <p>I am not going to ask you to repeat the story for me. I am not going to press for details, and I will not make this about my anger. I know you have said you do not want me personally getting involved with Ruben, and I will respect that. I will not contact him to confront him, threaten him, or take matters into my own hands. I want to honour what you asked of me, not turn my worry into another situation you have to manage.</p>
+        <p>The practical side can be handled by the appropriate trusted adults and the school, with your safety, privacy, and wishes treated seriously. You deserve support without being forced to have the same conversation over and over. If you ever want help thinking through what support would feel right, I will listen; if you do not want to talk about it with me, I will respect that too.</p>
+        <p>Most of all, I want you to have your ordinary life back in whatever way and at whatever pace is right for you. You can laugh at something silly, talk about music, tell me about your day, be quiet, or decide you want no conversation at all. You do not need to make today's experience the centre of every interaction with me. It matters, but it does not own every part of you.</p>
+      </section>
+
+      <section class="section" id="noise">
+        <span class="section-number">03 · The noise around us</span>
+        <h2>Other people's noise is not the author of our story.</h2>
+        <p>I know there have been moments when outside opinions, misunderstandings, rumours, poor decisions, or other people's behaviour seemed to bring heaviness into our lives and into the lives of people we care about. That wider circle includes people such as Anna, Leela, Yuria, Kurea, and others. I am not writing their names to accuse them, turn them into villains, or pretend I know every person's intention. I do not know every side of every situation, and I want to be fair even when something has hurt.</p>
+        <p>What I want us to remember is that we can be honest about the effect of a behaviour without reducing a person to the worst thing we believe they have done. If someone crosses a boundary, we can name the boundary. If gossip causes harm, we can refuse to participate. If a conversation becomes unkind, we can step away. If an outside opinion is worth considering, we can consider it calmly; if it is merely noise, we do not have to build our identity around it.</p>
+        <p>I do not want you to feel that loving me means choosing a side in every conflict, defending our relationship to every person, or carrying the responsibility of proving that we are real. You do not have to fight every battle. Neither do I. We can protect what matters through clarity, privacy, sensible boundaries, and the way we treat each other when nobody else is watching.</p>
+        <p>When something affects us, I want to ask what actually happened, what we know, what we are assuming, and what would help now. I want us to be able to say, “That hurt me,” without turning the conversation into “You are the enemy.” I want us to protect our peace without pretending that hard things did not happen.</p>
+        <p>Our relationship is not a public performance. It does not have to be proved through arguments, dramatic declarations, jealousy, or winning against other people. What matters most is how we care for each other in the quiet, ordinary moments: whether we listen, tell the truth, respect a no, repair a mistake, and keep our words connected to our actions.</p>
+      </section>
+
+      <section class="section" id="why-you">
+        <span class="section-number">04 · Why you, Sofia</span>
+        <h2>It has always been deeper than shared interests.</h2>
+        <p>If someone asked me why I love you, I would not want to answer with a list of hobbies we share, the things we like, or the way you make me feel when we have a beautiful conversation. Those things are lovely. They give us places to meet each other. But they are not the foundation of my feelings.</p>
+        <p>I love the person I have come to know through the way you think, the things you notice, the choices you make, the way you express yourself, your humour, your confidence, your sensitivity, your values, and the parts of your mind that I am still discovering. I admire that there is more to you than what anybody can see at first glance. You are not a photograph, a pretty face, a collection of interests, or a role in somebody else's life. You are a whole person—complex, changing, thoughtful, and wonderfully your own.</p>
+        <p>I love the moments when you are cheeky and playful, when you are observant, when you are soft, when you are boldly yourself, and when you let me see a side of you that you do not show everyone. I love the freedom you have told me you want to feel around me: to be goofy, loud, sensitive, clingy, silly, serious, or simply unfiltered. I do not want you to feel that you have to maintain one version of yourself for me. I want to keep learning who you are, including the parts I do not understand immediately.</p>
+        <p>And yes, my Lady, I find you exceptionally beautiful. Naturally gorgeous, in a way that still catches my attention even through a screen. I am deeply attracted to you. But attraction is only one piece of the picture, and it never gives me a claim over you. Your mind, character, heart, and personhood are not less important than your appearance. I want my admiration to make you feel appreciated, never inspected; wanted, never objectified; cherished, never pressured.</p>
+        <p>I do not love an imagined version of you who never makes mistakes, never gets tired, never disagrees with me, and always knows what to say. I love the real person I am getting to know. I want to respect who you are now and remain curious about who you may become, without treating your growth as a project that belongs to me.</p>
+        <div class="pullquote">“I do not just love how it feels to love you. I love the person you are, beyond what you can give me.”</div>
+        <p>I do not want to use the word “unconditional” to mean that either of us should tolerate harm or abandon our boundaries. To me, it means that your worth is not measured by your usefulness to me, your mood, your appearance on a difficult day, or whether you can make my life easy. We can hold each other accountable and still treat each other with dignity. We can have limits and still care deeply. We can change and still deserve tenderness.</p>
+      </section>
+
+      <section class="section" id="loyalty">
+        <span class="section-number">05 · Loyalty in action</span>
+        <h2>I want you to feel my loyalty in the ordinary details.</h2>
+        <p>When I talk about commitment, I do not mean a dramatic sentence that sounds beautiful for one night. I mean the ordinary decisions that make trust possible over time. I want to be honest about the people I communicate with, the online spaces I spend time in, the social groups I am part of, and the plans that affect my day. If I am going somewhere or travelling, I want to tell you naturally, not because you have to ask or keep track of me, but because sharing my life with you should feel normal.</p>
+        <p>I do not want to have a secret version of myself that contradicts the person I present to you. If something is uncomfortable, I want to be able to talk about it instead of hiding it. If I make a mistake, I want to own it instead of making you discover the truth by accident. If someone flirts with me or crosses a relationship boundary, I will make my position clear and end that interaction respectfully rather than entertain it for attention. I want my loyalty to be the same when no one is watching as when everyone is watching.</p>
+        <p>I want to be open with you about my phone and my online life; I do not want you to feel that there is a locked-away part of my world where honesty stops. But I also want us to build trust in a healthy way. I do not want passwords or constant checking to become the price of being believed, for either of us. I will not demand access to your private conversations as proof of your love, and I do not want you to feel that you must inspect my phone to feel secure. I want transparency to come from my actions and my willingness to answer fair questions, not from surveillance or fear.</p>
+        <p>Trust is not built in one grand gesture. It is built each time I do what I said I would do; each time I communicate instead of disappearing; each time I am honest when a lie might be easier; each time I set a clear boundary with someone else; each time I listen without making your concern sound ridiculous; each time I apologise without expecting you to instantly feel better.</p>
+        <p>And I want that standard to go both ways, freely and respectfully. I want us to be able to talk about what loyalty means to each of us, what makes each of us feel safe, and where privacy and openness should sit. I do not want to assume that I already know everything you need. I want to ask, listen, and keep learning.</p>
+        <p>My commitment is not something I want you to have to chase out of me. I want to show it consistently. I want to make room for our relationship in my life without asking you to abandon your own life, friendships, goals, or identity. We are two whole people choosing to build something meaningful—not one person becoming the keeper of the other.</p>
+      </section>
+
+      <section class="section" id="truth">
+        <span class="section-number">06 · Honesty, growth, and hard conversations</span>
+        <h2>I want us to grow beside each other, not control each other.</h2>
+        <p>My love, I want to be truthful with you even when a conversation is difficult. I do not want to flatter you just to avoid discomfort, and I do not want you to feel that honesty from me will arrive as an attack. There is a difference between telling the truth with care and using “I am just being honest” as an excuse to be cruel. I want to learn the first and never hide behind the second.</p>
+        <p>If I am concerned about something, I want to explain what I noticed, how it affected me, and what I am asking for, while leaving room for your perspective. I want to be able to hear, “I see that differently,” without treating it as disrespect. I want to ask whether you want advice, help thinking something through, or simply someone to listen. Sometimes support means offering a perspective; sometimes it means being quiet long enough for you to hear your own thoughts.</p>
+        <p>I want to support your goals and your self-development, but I never want to act as though I own your growth or that my role is to shape you into the person I think you should become. You are not a project. You are my partner. I can encourage you, be honest about what I see, celebrate your progress, and stand beside you while you learn. You still get to choose your direction. And I must be just as willing to do my own work—to accept feedback, confront my blind spots, and change behaviour that hurts you.</p>
+        <p>When we disagree, I do not want to fight you. I want us to fight the problem together. That means no insults, intimidation, threats, deliberately cruel words, or punishment through silence. It means taking a pause when either of us is overwhelmed, explaining that we need time, and returning to the conversation when we can speak respectfully. A pause should be a bridge back to one another, not a way to leave the other person frightened and guessing.</p>
+        <p>I will not always get everything right. I cannot honestly promise that I will never misunderstand you or never feel upset. What I can promise to work towards is this: I will not use my feelings as permission to treat you badly. I will take responsibility when I cause hurt, listen to the impact instead of arguing only about my intention, and make the repair visible in my future behaviour.</p>
+        <div class="gentle-note">Accountability should help us see more clearly, not make either of us feel smaller. Love should give truth a gentle place to land.</div>
+      </section>
+
+      <section class="section" id="desire">
+        <span class="section-number">07 · Beauty, attraction, and respect</span>
+        <h2>You are cherished as a whole person.</h2>
+        <p>I am attracted to you, Sofia, and I do not need to pretend otherwise. I find you beautiful, and I love the way your presence can catch my attention even from far away. But I never want my attraction to become a reason you feel watched, pressured, or expected to give me anything. My feelings are mine to handle responsibly. Your comfort and consent matter every time, including when we are affectionate, when we are joking, and when we are simply spending time together.</p>
+        <p>I want closeness between us to be mutual, chosen, and comfortable. I want us to be able to say yes, no, not yet, or maybe later without either person having to fear disappointment, anger, or a change in affection. I will ask rather than assume. I will listen rather than persuade you past a boundary. And I want the same freedom for myself, too, because a healthy relationship makes room for both people's comfort.</p>
+        <p>What I find most beautiful is not something I can possess. It is the way you are your own person. I want to appreciate your beauty without reducing you to it, and I want to cherish our closeness without ever forgetting that love is a choice we make with each other—not a right either of us owns.</p>
+      </section>
+
+      <section class="section" id="future">
+        <span class="section-number">08 · The future I imagine</span>
+        <h2>I dream of a future we both choose freely.</h2>
+        <p>When I think about the future, I do not only imagine dates, songs, sweet messages, or the lovely moments we hope to share in person. I imagine the work of building a life: learning to communicate, becoming more responsible, developing our own foundations, being truthful about money and goals, learning how to repair disagreements, and becoming people who can care for a relationship without losing ourselves inside it.</p>
+        <p>I can imagine asking you to be my fiancée one day, marrying you, and perhaps becoming parents if that is the future we both still want. I can imagine a ring that means something because we chose it together, and a home where neither of us has to be afraid of the other's anger. I can imagine a life in which we can be playful and serious, ambitious and gentle, independent and close. These are meaningful dreams to me—but they are dreams I want to build through mutual choice, not promises I place on your shoulders before life has unfolded.</p>
+        <p>Your parents and Anna matter to me because they are important people in your life. I want to earn trust with Mr and Mrs Shaw through respect, reliability, and the way I conduct myself—not merely by saying the right things. When the time is right, if we are both moving towards marriage, asking your parents for their blessing would be a meaningful gesture to me. I would also be glad for you to meet my parents and for our families to get to know one another naturally, with everyone's comfort respected.</p>
+        <p>I want to keep building my own foundations and work towards greater independence so that my plans have more behind them than emotion. I want to become someone who can contribute steadily, make responsible decisions, and keep growing even when progress is slow. I do not expect you to build my life for me, and I do not want you to feel that your love has to rescue me. I want to bring my own effort to the future I dream about.</p>
+        <p>I cannot promise that life will never bring pressure, change, or difficulty. Nobody can honestly guarantee that. What I can say is that, while we both choose this relationship, I want to face hard things as your partner: talking openly, making room for both perspectives, asking for help when we need it, and refusing to treat each other as the enemy.</p>
+        <p>And if our dreams ever need to change, I want us to be honest and humane with each other rather than use fear or guilt to hold on. I hope for a long life together. I want to work towards it. I also want our love to remain a free and willing choice, because that is what gives it its meaning.</p>
+      </section>
+
+      <section class="section" id="hard-days">
+        <span class="section-number">09 · On your hard days</span>
+        <h2>You are not a burden for being human.</h2>
+        <p>My darling, when something is weighing on you, I want you to know that you can tell me when you feel ready. You do not have to tidy your feelings into a perfect explanation first. You can tell me that you are stressed, disappointed, nervous, hurt, confused, or drained. You can tell me that you do not know what you need yet. We can take the next small step without pretending we already know the whole way forward.</p>
+        <p>I never want you to believe that you are a burden simply because you are having a difficult time. At the same time, I want us both to be allowed to have limits, tired days, and moments when we need support from more than one person. I may not always have the perfect answer, but I can listen honestly, ask what would help, and be clear when we should reach out to someone who can offer the right kind of support. You deserve a circle of care, not the pressure of depending on one person for everything.</p>
+        <p>Be goofy with me. Be thoughtful with me. Tell me the random thing that made you laugh. Tell me about something you are excited about. Share a dream, a worry, a disappointment, or a tiny detail you think nobody else would notice. And when you do not feel like sharing, let that be okay too. You never have to perform openness to prove that you trust me.</p>
+        <p>I want to meet you with gentleness even when I have had a difficult day. That is my responsibility to practise. If I am overwhelmed, I must manage it without making you the target of it. If I need a pause, I should tell you respectfully and return to the conversation. If I mess up, I should own it. Your kindness should never be something I take for granted, and my love should never become an excuse for you to tolerate behaviour that hurts.</p>
+        <p>You can come to me for comfort, for a different perspective, for a laugh, or for an ordinary conversation about absolutely nothing important. You can also ask for space. I want you to feel that you have choices with me—and that those choices will be respected.</p>
+      </section>
+
+      <section class="section" id="a-gentle-promise">
+        <span class="section-number">10 · A gentle promise</span>
+        <h2>Let my actions keep the promise.</h2>
+        <p>My Lady, I know I can write a great many words about love. I can make this page beautiful, fill it with lilies and moonlight, and tell you how deeply you matter to me. But the real meaning of these words will be found outside this screen—in the way I speak to you when we disagree, the way I respect your no, the way I tell you the truth, and the way I keep trying when consistency becomes ordinary work rather than a grand romantic moment.</p>
+        <p>I want to keep choosing honesty over hiding, calm conversation over escalation, curiosity over assumption, and repair over pride. I want my words and actions to agree more and more as time passes. I want you to be able to tell me when something does not feel right without fearing that the truth will cost you my affection. I want to listen even when I feel defensive, and to remember that understanding you matters more than winning an argument.</p>
+        <p>When I say I am devoted to you, I mean I want to care for this relationship faithfully while we both choose it. I do not want to entertain flirtation or keep someone nearby as a backup. I do not want to cultivate secrets that would betray our trust. If someone crosses a boundary, I will be clear. If I ever feel uncertain or something changes, I owe you honesty rather than deception. I want my loyalty to be a principle I live by, not a performance designed to make you afraid of losing me or to make you feel indebted to me.</p>
+        <p>And the thought of a ring one day is beautiful to me, not because it would bind you to me, but because I hope it might symbolise a promise we both freely make and keep nurturing. I want to earn the right to make that promise through my actions—not use a future dream to rush you into it.</p>
+        <p>I cannot promise perfection, my love. I can promise that I want to keep learning, to take responsibility, to apologise when I am wrong, to respect your independence, and to keep showing up with care. I want us to be a team without either of us disappearing into the other. I want us to protect one another's dignity, celebrate each other's growth, and make room for laughter even when life is difficult.</p>
+        <p>Above all, I want you to feel free with me. Free to be honest. Free to be silly. Free to have your own friendships and dreams. Free to disagree. Free to ask for comfort. Free to say no. Free to need time. Free to keep becoming yourself. I want the love I offer you to feel like a hand held out, never a hand closing around you.</p>
+        <p>That is the kind of love I want to practise with you: not just the emotion I feel, but the care I choose; not just the future I imagine, but the work I do in the present; not just words about safety, but behaviour that helps you feel safe.</p>
+      </section>
+
+      <div class="soft-break" aria-hidden="true"><svg class="lily" viewBox="0 0 100 100" fill="none"><path d="M50 51C26 43 18 23 31 14C46 18 51 35 50 51Z" fill="#fff" stroke="currentColor" stroke-width="3"/><path d="M50 51C37 29 42 10 58 8C69 20 63 39 50 51Z" fill="#fff" stroke="currentColor" stroke-width="3"/><path d="M50 51C59 27 78 22 87 35C82 50 64 57 50 51Z" fill="#fff" stroke="currentColor" stroke-width="3"/><path d="M50 51C73 49 86 63 78 77C62 80 50 65 50 51Z" fill="#fff" stroke="currentColor" stroke-width="3"/><path d="M50 51C63 69 56 88 41 91C29 79 37 61 50 51Z" fill="#fff" stroke="currentColor" stroke-width="3"/><path d="M50 51C32 68 14 61 12 46C24 34 42 42 50 51Z" fill="#fff" stroke="currentColor" stroke-width="3"/><circle cx="50" cy="51" r="5" fill="#d4a36d"/></svg><span>✦ ☾ ✦</span></div>
+      <p class="salutation">And, finally, my baby girl…</p>
+      <p>Thank you for being the person you are, not an ideal I have invented, but a real person I have the privilege of knowing and continuing to learn. Thank you for the moments you have trusted me with, the conversations we have shared, the laughter, the tenderness, and the chance to build something with care. I do not take your trust lightly, and I never want to assume that yesterday's closeness means I can stop being thoughtful today.</p>
+      <p>As this little Halloween letter comes to its end, I hope it leaves you with a little warmth rather than another weight. Imagine the moon above a quiet garden, the small glow of a pumpkin on the path, and white lilies drifting down without asking anything of you. Nothing here needs to be solved tonight. Nothing here requires you to find the perfect response.</p>
+      <p>You are Sofia. You are allowed to have your own thoughts, your own pace, your own boundaries, your own dreams, and your own voice. I love you as the person you are, and I want my love to make room for all of that—not shrink it.</p>
+      <div class="signoff">
+        <p>With a gentle heart, an open mind, and love I want to keep proving through my actions,</p>
+        <div class="signature">Your favorite gentleman.</div>
+        <small>For Sofia · My Lady · written with love, care, and respect</small>
+      </div>
+    </div>
+    <div class="closing-card">
+      <div class="closing-flourish" aria-hidden="true">✧ ☾ ❀ ☽ ✧</div>
+      <h2>Nothing to prove. Nowhere to rush.</h2>
+      <p>Take what feels comforting, leave what you need to leave for another day, and remember that you can always tell me what feels right for you. Your heart gets to move at its own pace.</p>
+      <p style="font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;margin-top:1.5rem;color:#8d6b6d;">Happy Halloween, my Lady 🎃</p>
+      <a class="back-top" href="#top">Return to the moonlight ↑</a>
+    </div>
+  </article>
+</main>
+<footer class="footer">
+  <div>Made for <strong>Sofia</strong> · Halloween 2026</div>
+  <div style="margin-top:.4rem;">A letter of love, honesty, autonomy, and care.</div>
+  <a class="back-top" href="#top">Back to the beginning ↑</a>
+</footer>
+<button class="reduce-motion" id="motionToggle" type="button" aria-pressed="false">Pause falling lilies</button>
+<script>
+(function(){
+  const layer = document.getElementById('petalLayer');
+  const toggle = document.getElementById('motionToggle');
+  const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const symbols = ['❀','✿','❋','✾','❁'];
+  let paused = false;
+  if (!reduced) {
+    for (let i=0; i<19; i++) {
+      const petal = document.createElement('span');
+      petal.className = 'falling-petal';
+      petal.textContent = symbols[i % symbols.length];
+      petal.style.left = (Math.random()*100) + '%';
+      petal.style.setProperty('--size', (12 + Math.random()*13) + 'px');
+      petal.style.setProperty('--duration', (13 + Math.random()*15) + 's');
+      petal.style.setProperty('--delay', (-Math.random()*24) + 's');
+      petal.style.setProperty('--drift', ((Math.random()*130)-65) + 'px');
+      petal.style.setProperty('--opacity', (.23 + Math.random()*.48).toFixed(2));
+      layer.appendChild(petal);
+    }
+  } else {
+    toggle.textContent = 'Lilies paused';
+    toggle.disabled = true;
+  }
+  toggle.addEventListener('click', function(){
+    paused = !paused;
+    layer.querySelectorAll('.falling-petal').forEach(p => p.style.animationPlayState = paused ? 'paused' : 'running');
+    toggle.textContent = paused ? 'Resume falling lilies' : 'Pause falling lilies';
+    toggle.setAttribute('aria-pressed', String(paused));
+  });
+})();
+</script>
+</body>
+</html>
